@@ -1,0 +1,51 @@
+#software architecture 
+	- take an idea take it apart and how it works and use code to actually implement the code
+	- python: data science
+	- how do i take the problem, define its behavior and understand how it works and put it in code
+	- object-oriented programming
+
+
+# 4 big things that we need to go over
+	- Think of the behavior
+	- COnstants -- one file where you can change becomes easier
+		- Window dimensions
+		- size of cells
+		- color
+		- frame rate -- tie the speed of the game with the frame 
+		- cell width and height
+	- Data defintions
+		- moving lots of data and using it to draw it to the screen. 
+		- working and manipulating the data and drawing it to show it to the user
+		- what is a snake game, what makes it a snake game. 
+		- array of length of snake
+		- apple: in a cell, doesnt move,but gets eaten
+			x and y coordinate
+	- go over functions
+# Snake:
+	- blocks
+	-x-y coordinate 
+	- entire snake is that
+	- list of blocks
+	- y-zero is at the top
+	- dictionary [{"x":1, "y":2 }, {"x": snake[0].x - 1, }]
+
+# What are the rules of the game 
+	- what are the behaviors 
+		- Game over state:
+			- snake hits the edge of the screen
+			- if the snake touches itself
+	- Snake Movement:
+		- body trails its head
+	-Snake:
+		- Eats an apple, grows by one 
+	-Score:
+		- How much food has been eaten
+	Menu Screen:
+		- Shows one time at the beginning
+		- Disappears on any key press
+
+	Gameo Over screen:
+		- displays when snake hits wall or eats itself
+		- will go to new game with any key press
+	Key input:
+		- arrow keys and wasd change snake direction
